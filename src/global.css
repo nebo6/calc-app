@@ -1,0 +1,25 @@
+:root {
+	/* ### Primary */
+	--strong-cyan: #26c0ab;
+	/* ### Neutral */
+	--very-dark-cyan: #00494d;
+	--dark-grayish-cyan: #5e7a7d;
+	--grayish-cyan: #809b9e;
+	--light-grayish-cyan: #c5e4e7;
+	--very-light-grayish-cyan: #f4fafa;
+	--white: #fff;
+	/* ### Custom */
+	--border-radius-sm: 5px;
+	--border-radius: 10px;
+	--border-radius-lg: 20px;
+	--dark-red: #B77E74;
+}
+
+body {
+	margin: 0;
+	font-family: 'Space Mono', monospace;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-weight: 700;
+	background-color: var(--light-grayish-cyan);
+}
